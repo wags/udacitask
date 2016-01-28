@@ -36,7 +36,7 @@ class TodoList
   end
 
   def print_items
-    items.each { |item| item.print_item }
+    items.each_with_index { |item, index| puts "#{item.checkbox} #{index + 1} - #{item.description}" }
   end
 
   def print_list
@@ -66,7 +66,7 @@ class Item
     toggle_status if !complete?
   end
 
-  def print_item
-    puts "#{description} - #{complete?}"
+  def checkbox
+    complete? ? "[x]" : "[ ]"
   end
 end
