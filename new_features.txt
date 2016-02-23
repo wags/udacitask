@@ -1,0 +1,7 @@
+Feature #1: Save the list to a file, and load it if one already exists.
+Feature #2: Rename existing task list item descriptions.
+Feature #3: Add (optional) due date for tasks.
+Feature #4: Change (modify or remove) the due date.
+Feature #5: "Bold" (using markdown syntax) the task description if it is overdue.
+Feature #6: Clear completed items.
+Feature #7: Rearrange list items (move specific item to new position in the list).
